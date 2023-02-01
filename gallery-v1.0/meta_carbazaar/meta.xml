@@ -1,0 +1,34 @@
+<meta>
+    <info author="Meta Script" description="Meta Gallery" version="1" type="script" />  
+    
+    <!-- Settings -->
+    <script src="settings/settings.lua" type="shared" cache="false"/>
+    <script src="settings/notification_c.lua" type="client" cache="false"/>
+    <script src="settings/notification_s.lua" type="server" cache="false"/>
+        <!--Cars logos -->
+        <file src="settings/cars_logo/nissan.png"/>  
+
+    
+    <!-- Maps object -->
+    <script src="map/map_s.lua" type="server" cache="false"/>
+    <script src="map/map_c.lua" type="client" cache="false"/>
+
+
+    <!-- Markers -->
+    <script src="marker/marker_s.lua" type="server" cache="false"/>
+    <script src="marker/marker_c.lua" type="client" cache="false"/>
+
+
+
+    <!-- Panels -->
+    <script src="panel/client/panel.lua" type="client" cache="false"/>
+    <script src="panel/client/panel_util_c.lua" type="client" cache="false"/>
+    <script src="panel/server/panel_util_s.lua" type="server" cache="false"/>
+        <!-- Panel İmg -->
+        <file src="panel/panel_img/sound_on.png"/>  
+        <file src="panel/panel_img/sound_off.png"/>  
+        <file src="panel/panel_img/cinematic_icon.png"/>  
+
+    <!-- Database -->
+    <script src="database/db.lua" type="server" cache="false"/>
+</meta>

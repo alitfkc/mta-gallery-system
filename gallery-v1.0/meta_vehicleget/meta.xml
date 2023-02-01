@@ -1,0 +1,34 @@
+<meta>
+    <info author="Meta Scripts" name="Vehicle Get" version="1" type="script"/>
+
+    <!-- Settings -->
+    <script src="settings/settings.lua" type="shared" cache="false"/>
+    <script src="settings/notification_c.lua" type="client" cache="false"/>
+    <script src="settings/notification_s.lua" type="server" cache="false"/>
+
+    <!-- Exports -->
+    <script src="exports/exports_s.lua" type="server" cache="false"/>
+    <script src="exports/exports_c.lua" type="client" cache="false"/>
+        <export function="add_player_vehicle" type="server"/> 
+        <export function="get_buying_limit" type="server"/> 
+        <export function="export_player_vehicles" type="client"/> 
+        <export function="sell_vehicle_bazaar" type="server"/> 
+        <export function="remove_vehicle_bazaar" type="server"/> 
+        <export function="sell_vehicle_scrap" type="server"/> 
+        <export function="add_player_vehicle_to_bazaar" type="server"/> 
+
+    <!-- Panels -->
+    <script src="panel/client/panel.lua" type="client"/>
+    <script src="panel/client/util_c.lua" type="client"/>
+    <script src="panel/server/util_s.lua" type="server"/>
+
+
+    <!-- trade -->
+    <script src="trade/trade_util_c.lua" type="client"/>
+    <script src="trade/trade_util_s.lua" type="server"/>
+
+    <!-- Database -->
+    <script src="database/db.lua" type="server" cache="false"/>
+    <min_mta_version server="1.5.8-9.20979" />
+    
+</meta>
